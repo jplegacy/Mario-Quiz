@@ -1,0 +1,92 @@
+@keyframes boi{
+    0%{
+      border:solid black 10px;  
+        }
+    50%{
+      border:solid Gold 10px;  
+        }
+    100%{
+        border:solid black 10px;         
+        }
+}
+body{
+    margin-top:10%;
+    background:url(https://slifty.com/wp-content/uploads/2011/08/14.jpg);
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-size:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+.logo{
+    animation:boi 2s alternate;
+    animation-iteration-count: infinite;
+    border-radius:30px;
+    width:100%;
+}
+.quizl{
+    font-size:300%;
+    font-family: 'Audiowide', cursive;
+    text-align:center;
+    animation:boiText 1s alternate;
+    animation-iteration-count: infinite;
+    }
+.boi{
+    font-family: 'Audiowide', cursive;
+    font-size:25px;
+    color:white;
+    background-image:url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0396/3573/rbricks_large_shop_preview.png");
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:15px;
+    padding-bottom:14px;
+    background-size:100%;
+    border-radius:10px;    
+    border:black solid 5px;
+    transition:0.5s;
+    
+    }
+.boi:hover{
+    border:gold solid 5px;
+    }
+.wrapper{
+    width:50%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+    }    
+.loadingIcon{
+    width:5%;
+    height:5%;
+    margin-top:10%;
+    }
+.margin{
+    margin-top:20%;
+    }
+p {
+   font-family: 'Audiowide', cursive;
+    font-size:60px;
+    color:white; 
+}
+.boi2{
+    width:50%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.boi3{
+    text-align:center;
+    font-size:60px;
+}
+.boi4{
+    Height:50%;
+    float:Right;
+}
+.secretbox{
+    background-image:url(https://media1.tenor.com/images/12ce8656c795faa84062bb8979d357c1/tenor.gif?itemid=10723920);
+    margin-top:15%;
+    width:100%;
+    height:500px;
+    }
